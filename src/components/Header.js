@@ -22,7 +22,7 @@ const List = styled.ul`
 `;
 
 const Item = styled.li`
-  width: 50px;
+  width: 80px;
   height: 50px;
   text-align: center;
 `;
@@ -34,6 +34,7 @@ const SLink = styled(Link)`
   justify-content: center;
   border-bottom: 3px solid
     ${(props) => (props.current ? "pink" : "transparent")};
+  transition: border-bottom 0.3s ease-in-out;
 `;
 
 export default withRouter(({ location: { pathname } }) => (
