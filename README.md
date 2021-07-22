@@ -9,8 +9,11 @@
 
 ## API Verbs
 
-- [ ] Now playing(Movie)
-- [ ] Top Rated(Movie, TV)
-- [ ] Popular(Movie, TV)
-- [ ] Upcoming(Movie)
-- [ ] Airing Today(TV)
+- [x] Now playing(Movie)
+- [x] Top Rated(TV)
+- [x] Popular(Movie, TV)
+- [x] Upcoming(Movie)
+- [x] Airing Today(TV)
+- [x] TV Show detail
+- [x] Movie detail
+- [x] Search(Movies, TV)
