@@ -43,7 +43,6 @@ class TVContainer extends Component {
 
   render() {
     const { topRated, popular, airingToday, loading, error } = this.state;
-    console.log(this.state);
     return (
       <TVPresenter
         topRated={topRated}
